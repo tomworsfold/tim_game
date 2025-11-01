@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tim_game"
+version = "0.1"
+dependencies = [
+  "pygame-ce",
+  "numpy",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Thomas Worsfold", email = "tom.worsfold@hotmail.co.uk"},
+]
+description = "Happy Birthday Tim"
+readme = "README.rst"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python"
+]
+
+[project.optional-dependencies]
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/tomworsfold/tim_game.git"
+"Bug Tracker" = "https://github.com/tomworsfold/tim_game/issues"
+
+[project.scripts]
+
+[project.entry-points."spam.magical"]
